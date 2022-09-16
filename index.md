@@ -1,5 +1,7 @@
 ---
-permalink: /
+layout: page
+title: About Me
+order: 1
 ---
 ### ABOUT ME
 
