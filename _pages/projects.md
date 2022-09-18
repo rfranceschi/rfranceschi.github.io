@@ -1,6 +1,9 @@
 ---
 permalink: /projects/
 title: Research projects
+sidebar:
+  title: " "
+  nav: sidebar-projects
 ---
 
 ### Mass determination of protoplanetary disks from dust evolution
