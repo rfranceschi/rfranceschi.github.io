@@ -1,8 +1,9 @@
 ---
-title: About me
 layout: default
 author_profile: true
 ---
+
+### About me
 
 My research interests include mass estimates of protoplanetary disks, their dust evolution, and gas distribution in the
 context of planet formation.
