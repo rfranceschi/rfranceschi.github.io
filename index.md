@@ -1,6 +1,6 @@
 ---
-layout: default
 author_profile: true
+layout: single
 ---
 
 ### About me
