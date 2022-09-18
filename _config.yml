@@ -278,6 +278,12 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+    
+# Portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
