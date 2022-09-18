@@ -1,3 +1,7 @@
+---
+permalink: /projects/
+---
+
 ### Project 1
 
 Ciao 1
