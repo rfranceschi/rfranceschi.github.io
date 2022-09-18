@@ -14,3 +14,7 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+  sidebar-projects:
+    - title: "Mass determination of protoplanetary disks from dust evolution"
+      url : https://rfranceschi.github.io/projects/#mass-determination-of-protoplanetary-disks-from-dust-evolution
