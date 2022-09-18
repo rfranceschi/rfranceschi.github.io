@@ -1,11 +1,12 @@
 # main links
 main:
-  - title: "Projects"
+  - title: "Research projects"
     url: /projects/
   - title: "Publications"
     url: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8889-2992&sort=date%20desc%2C%20bibcode%20desc&p_=0
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Education"
+#   - title: "Portfolio"
+#     url: /portfolio/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
