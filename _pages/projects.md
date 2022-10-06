@@ -4,6 +4,11 @@ title: Research projects
 sidebar:
   title: " "
   nav: sidebar-projects
+gallery:
+  - url: /assets/images/heat_value_M_g_med.pdf
+    image_path: /assets/images/heat_value_M_g_med.pdf
+    alt: "First image"
+    title:: "Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The analytical relation sistematically overestimates the disk mass by a constant factor."
 ---
 
 ### Mass determination of protoplanetary disks from dust evolution
