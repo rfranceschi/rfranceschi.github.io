@@ -11,9 +11,9 @@ gallery_dust_line:
     alt: "First image"
     title: "Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The plot shows the mass estimate from both approaches for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor."
 
-excerpt: "This post should [...]"
+excerpt: ""
 header:
-  overlay_image: /assets/images/teaser.jpg
+  overlay_image: /assets/images/teaser.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 
