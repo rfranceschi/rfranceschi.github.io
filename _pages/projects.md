@@ -9,7 +9,7 @@ gallery_dust_line:
   - url:
     image_path: /assets/images/heat_value_M_g_med_page-0001.jpg
     alt: "First image"
-    title:: "Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The plot shows the mass estimate from both approaches for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor."
+    title: "Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The plot shows the mass estimate from both approaches for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor."
 ---
 
 ### Mass determination of protoplanetary disks from dust evolution
