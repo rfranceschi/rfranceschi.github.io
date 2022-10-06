@@ -4,12 +4,6 @@ title: Research projects
 sidebar:
   title: " "
   nav: sidebar-projects
-  
-gallery_dust_line:
-  - url:
-    image_path: /assets/images/heat_value_M_g_med_page-0001.jpg
-    alt: "First image"
-    title: "Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The plot shows the mass estimate from both approaches for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor."
 
 excerpt: ""
 header:
@@ -25,4 +19,8 @@ We use dust evolution modes to test the dependence of the dust line location on 
 
 Our models show that the determination of the dust line location is a promising approach to the mass estimate of protoplanetay disks, but the exact relation between the dust line location and disk mass depends on the structure of the particular disk. We calibrated the relation for disks without evidence of radial structures, while for more complex structures we ran a simple dust evolution model.
 
-{% include gallery id="gallery_dust_line"%}
+<figure class="half">
+    <a href="/assets/images/heat_value_M_g_med_page-0001.jpg.jpg"><img src="/assets/images/heat_value_M_g_med_page-0001.jpg"></a>
+    <a href="/assets/images/heat_value_M_g_med_page-0001.jpg"><img src="heat_value_M_g_med_page-0001.jpg"></a>
+    <figcaption>Difference between the Powell (2017, 2019) analytical relation between the size of the millimeter emitting region and disk mass (white slashed line), and our estimate from dust evolution models (red line). The plot shows the mass estimate from both approaches for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor.</figcaption>
+</figure>
