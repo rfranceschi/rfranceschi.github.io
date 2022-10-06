@@ -18,7 +18,7 @@ main:
 
 sidebar-projects:
   - title: "Projects"
-    url: https://rfranceschi.github.io/projects/
+    url: https://rfranceschi.github.io/projects/#
     children:
       - title: "Mass determination of protoplanetary disks from dust evolution"
         url: https://rfranceschi.github.io/projects/#mass-determination-of-protoplanetary-disks-from-dust-evolution
