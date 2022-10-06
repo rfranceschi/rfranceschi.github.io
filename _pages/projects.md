@@ -25,3 +25,14 @@ Our models show that the determination of the dust line location is a promising 
     <figcaption>(left) Comparison of the dust continuum emission at 0.87 mm as predicted by our model (blue solid line) to the observational data (orange
 solid line) from Andrews et al. (2016). The blue dotted line shows the model result without accounting for radial structures, highlighting their importance for this mass estimate. (right) Difference between the Powell (2017, 2019) analytical mass estimate from the dust line location (white slashed line) and our estimate based on dust evolution models (red line) for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor.</figcaption>
 </figure>
+
+### Constraining the turbulence and the dust disk in IM Lup: onset of
+planetesimal formation
+
+Observations of protoplanetary disks provide information on planet formation and the reasons for the diversity of planetary systems. The key to understanding planet formation is the study of dust evolution from small grains to pebbles. Smaller grains ($\sim 1 \;\mu m$) are well coupled to the gas dynamics, and their distribution is significantly extended above the disk midplane. Larger grains settle much faster and are efficiently formed only in the midplane. By combining near-infrared polarized light and millimeter observations, it is possible to constrain the spatial distribution of both the small and large grains.
+
+We aim to construct detailed models of the size distribution and vertical/radial structure of the dust particles in protoplanetary disks based on observational data. In particular, we are interested in recovering the dust distribution in the IM Lup protoplanetary disk.
+
+We create a physical model for the dust distribution of protoplanetary disks. We then simulate the radiative transfer of the millimeter continumm and the near-infrared polarized radiation. Using a Markov chain Monte Carlo method, we compare the derived images to the observations available for the IM Lup disk to constrain the best physical model for IM Lup and to recover the vertical grain size distribution.}
+
+The millimeter and near-infrared emission tightly constrain the dust mass and grain size distribution of our model. We find size segregation in the dust distribution, with millimeter-sized grains in the disk midplane. These grains are efficiently formed in the disk, possibly by sedimentation-driven coagulation, in accord with the short settling timescales predicted by our model. This also suggests a high dust-to-gas ratio at smaller radii in the midplane, possibly triggering streaming instabilities and planetesimal formation in the inner disk. We obtain a turbulent $\alpha$ parameter of $3 \times 10^{-3}.$
