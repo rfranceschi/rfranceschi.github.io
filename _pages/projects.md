@@ -26,8 +26,7 @@ Our models show that the determination of the dust line location is a promising 
 solid line) from Andrews et al. (2016). The blue dotted line shows the model result without accounting for radial structures, highlighting their importance for this mass estimate. (right) Difference between the Powell (2017, 2019) analytical mass estimate from the dust line location (white slashed line) and our estimate based on dust evolution models (red line) for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor.</figcaption>
 </figure>
 
-### Constraining the turbulence and the dust disk in IM Lup: onset of
-planetesimal formation
+### Constraining the turbulence and the dust disk in IM Lup: onset of planetesimal formation
 
 Observations of protoplanetary disks provide information on planet formation and the reasons for the diversity of planetary systems. The key to understanding planet formation is the study of dust evolution from small grains to pebbles. Smaller grains ($\sim 1 \;\mu m$) are well coupled to the gas dynamics, and their distribution is significantly extended above the disk midplane. Larger grains settle much faster and are efficiently formed only in the midplane. By combining near-infrared polarized light and millimeter observations, it is possible to constrain the spatial distribution of both the small and large grains.
 
