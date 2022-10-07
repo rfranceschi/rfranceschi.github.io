@@ -18,6 +18,10 @@ main:
 
 sidebar-projects:
   - title: "Projects"
+    children:
+      - title: "A semiempirical approach to low-energy cosmic ray propagation in the diffuse interstellar medium"
+        url: https://rfranceschi.github.io/projects/#a-semiempirical-approach-to-low-energy-cosmic-ray-propagation-in-the-diffuse-interstellar-medium
+  - title: ""
     url: https://rfranceschi.github.io/projects/#
     children:
       - title: "Mass determination of protoplanetary disks from dust evolution"
@@ -26,7 +30,3 @@ sidebar-projects:
     children:
       - title: "Constraining the turbulence and the dust disk in IM Lup: onset of planetesimal formation"
         url: https://rfranceschi.github.io/projects/#constraining-the-turbulence-and-the-dust-disk-in-im-lup-onset-of-planetesimal-formation
-  - title: ""
-    children:
-      - title: "A semiempirical approach to low-energy cosmic ray propagation in the diffuse interstellar medium"
-        url: https://github.com/rfranceschi/rfranceschi.github.io/blob/master/_pages/projects.md#a-semiempirical-approach-to-low-energy-cosmic-ray-propagation-in-the-diffuse-interstellar-medium
