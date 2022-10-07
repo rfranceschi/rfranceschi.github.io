@@ -29,6 +29,12 @@ Our Monte Carlo approach to cosmic ray propagation is an alternative method for 
 approach can be benchmarked to gas observations of molecular clouds. Using this approach, we demonstrate that stochastic Fermi
 acceleration and particle trapping occurs in inhomogeneous clouds, significantly enhancing their ionization.
 
+<figure class="half">
+    <a href="/assets/images/CR_uniform_medium.png"><img src="/assets/images/CR_uniform_medium.png"></a>
+    <a href="/assets/images/CR_trapping.png"><img src="/assets/images/CR_trapping.png"></a>
+    <figcaption>(left) Example of simulated random-walk particle trajectories in the medium (right) Energy histogram of protons injected at 100 MeV propagating in an inhomogeneous medium. For comparison, the gray area shows the particle energy spread in a homogeneousmedium medium. Some particles are accelerated to energies higher than the injection one. </figcaption>
+</figure>
+
 ### Mass determination of protoplanetary disks from dust evolution
 
 The mass of protoplanetary disks is arguably one of their most important quantities shaping their evolution toward planetary systems, but it remains a challenge to determine this quantity. Using the high spatial resolution now available on telescopes such as the Atacama Large Millimeter/submillimeter Array (ALMA), recent studies derived a relation between the disk surface density and the location of the "dust lines". This is a new concept in the field, linking the disk size at different continuum wavelengths with the radial distribution of grain populations of different sizes.
