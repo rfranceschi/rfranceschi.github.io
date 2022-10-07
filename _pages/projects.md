@@ -42,3 +42,25 @@ The millimeter and near-infrared emission tightly constrain the dust mass and gr
     <a href="/assets/images/IMLup_corner.png"><img src="/assets/images/IMLup_corner.png"></a>
     <figcaption>(left) Comparison between the best-fit model 1.25 mm continuum and 1.65 μm polarized emission, and the ALMA and SPHERE data. (right) Posterior probability distribution of the fit parameter. </figcaption>
 </figure>
+
+### A semiempirical approach to low-energy cosmic ray propagation in the diffuse interstellar medium
+
+We investigate the ionization of the diffuse interstellar medium by cosmic rays by modeling their propagation along the
+wandering magnetic fields using a Monte Carlo method. We explore how particle trapping and second-order Fermi processes affect
+the ionization of the medium.
+
+We study how low-energy comic rays propagate in turbulent, translucent molecular clouds, and how they regulate the ionization
+and both lose and gain energy from the medium.
+
+As a test case, we used high spatial resolution (0.03 pc) CO maps of a well-studied high latitude translucent cloud, MBM 3,
+to model turbulence. The propagation problem is solved with a modified Monte Carlo procedure that includes trapping, energization,
+and ionization losses.
+
+In the homogeneous medium, trapping and re-energization do not produce a significant effect. In the nonuniform medium,
+particles can be trapped for a long time inside the cloud. This modifies the cosmic ray distribution due to stochastic acceleration at
+the highest energies (∼ 100 MeV). At lower energies, the re-energization is too weak to produce an appreciable effect. The change in
+the energy distribution does not significantly affect the ionization losses, so ionization changes are due to trapping effects.
+
+Our Monte Carlo approach to cosmic ray propagation is an alternative method for solving the transport equation. This
+approach can be benchmarked to gas observations of molecular clouds. Using this approach, we demonstrate that stochastic Fermi
+acceleration and particle trapping occurs in inhomogeneous clouds, significantly enhancing their ionization.
