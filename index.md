@@ -16,3 +16,15 @@ mechanisms affects their distribution. Since the distribution of solids is stron
 also use molecular emission lines to map the gas distribution. Using radiative transfer calculations, I create synthetic
 images of these models and compare them to interferometric data to estimate what disk structure can best reproduce the
 observations.
+
+<div>
+    <ul class="columns" data-columns="2">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+    </ul>
+</div>
