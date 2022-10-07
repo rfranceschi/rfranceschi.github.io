@@ -39,6 +39,6 @@ The millimeter and near-infrared emission tightly constrain the dust mass and gr
 
 <figure class="half">
     <a href="/assets/images/IMLup_images_comparison.png"><img src="/assets/images/IMLup_images_comparison.png"></a>
-    <a href="/assets/images/heat_value_M_g_med_page-0001.jpg"><img src="/assets/images/heat_value_M_g_med_page-0001.jpg"></a>
-    <figcaption>(left) Comparison between the best-fit model 1.25 mm continuum and 1.65 μm polarized emission, and the ALMA and SPHERE data. (right) Difference between the Powell (2017, 2019) analytical mass estimate from the dust line location (white slashed line) and our estimate based on dust evolution models (red line) for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor.</figcaption>
+    <a href="/assets/images/IMLup_corner.png"><img src="/assets/images/IMLup_corner.png"></a>
+    <figcaption>(left) Comparison between the best-fit model 1.25 mm continuum and 1.65 μm polarized emission, and the ALMA and SPHERE data. (right) Posterior probability distribution of the fit parameter. </figcaption>
 </figure>
