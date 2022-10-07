@@ -17,6 +17,11 @@ also use molecular emission lines to map the gas distribution. Using radiative t
 images of these models and compare them to interferometric data to estimate what disk structure can best reproduce the
 observations.
 
+ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
 <div>
     <ul class="columns" data-columns="2">
         <li>A</li>
