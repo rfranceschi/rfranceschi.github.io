@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Riccardo Franceschi"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist, Ph.D. student at the Max Planck Institute for Astronomy"
-  location         : "Heidelberg, Germany" # "Somewhere"
+  bio              : "Data focused researcher, Postdoctoral researcher at the Observatory of Paris"
+  location         : "Paris, France" # "Somewhere"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:franceschi@mpia.de"
+      url: "mailto:franceschi93.datascience@gmail.com"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
