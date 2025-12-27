@@ -4,7 +4,7 @@ layout: splash
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.7
   caption: "Image credit: NASA / JPL-Caltech"
 excerpt: >
   Data Scientist | Machine Learning & Bayesian Modeling<br/><br/>
