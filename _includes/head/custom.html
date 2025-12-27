@@ -1,48 +1,62 @@
 <style>
-  /* Make title and excerpt smaller */
+  /* Smaller title and excerpt in hero overlay */
   .page__hero--overlay .page__title {
-    font-size: 2.5rem !important;   /* Original is ~5-6rem; reduce further if needed (e.g., 3rem) */
+    font-size: 3.5rem !important;   /* Adjust as needed: 3rem for smaller, 4rem for larger */
     margin-bottom: 0.5rem !important;
+    line-height: 1.2 !important;
   }
+
   .page__hero--overlay .page__lead {
-    font-size: 1.rem !important;   /* Original is ~2.5rem; try 1.6rem for even smaller */
-    max-width: 80% !important;     /* Keeps it from stretching too wide */
+    font-size: 1.8rem !important;   /* Fixed: was 1.rem → 1.8rem */
+    max-width: 80% !important;
     margin: 0 auto !important;
+    line-height: 1.4 !important;
   }
 
-  /* Ensure perfect vertical + horizontal centering */
+  /* Better centering of the entire text block */
   .page__hero--overlay .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    height: 100% !important;
+    padding: 4rem 0 !important;
   }
 
-  /* Optional: Add more vertical breathing room if text feels too high/low */
+  /* Optional: Make hero taller to show more of the image */
   .page__hero--overlay {
-    padding: 4em 0 !important;  /* Increases vertical padding for better middle placement */
+    min-height: 85vh !important;
   }
 
-  /* Completely remove the link behavior from the author avatar (sidebar) */
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .page__hero--overlay .page__title {
+      font-size: 2.8rem !important;
+    }
+    .page__hero--overlay .page__lead {
+      font-size: 1.4rem !important;
+    }
+    .page__hero--overlay {
+      min-height: 70vh !important;
+    }
+  }
+
+  /* Remove link and dimming from author avatar (sidebar) */
   .author__avatar a {
-    pointer-events: none;      /* Disables clicking */
-    cursor: default;           /* Normal arrow cursor */
-    text-decoration: none;     /* No underline */
+    pointer-events: none !important;
+    cursor: default !important;
+    text-decoration: none !important;
   }
 
-  /* Remove dimming/fading effect – keep image at full brightness always */
   .author__avatar img {
-    opacity: 1 !important;             /* Full brightness */
-    transition: none !important;       /* No fade animation */
+    opacity: 1 !important;
+    transition: none !important;
   }
 
-  /* Ensure no change on hover */
   .author__avatar a:hover,
   .author__avatar img:hover {
     opacity: 1 !important;
     transform: none !important;
-    text-decoration: none;
   }
 </style>
