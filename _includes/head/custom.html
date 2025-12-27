@@ -27,27 +27,22 @@
 </style>
 
 <style>
-  /* Remove link from author profile image in sidebar */
+  /* Remove the homepage link from the author avatar (sidebar) */
   .author__avatar a {
-    pointer-events: none;  /* Disables clicking */
-    cursor: default;       /* Changes cursor to normal (optional) */
-  }
-</style>
-
-<style>
-  /* Remove dimming (opacity fade) on hover for all images in author profile and main content */
-  .author__avatar img,
-  .feature__item img,
-  img {  /* Broad selector to catch your main portrait too */
-    opacity: 1 !important;       /* Full brightness always */
-    transition: none !important; /* Removes the fade animation */
+    pointer-events: none;     /* Disables clicking */
+    cursor: default;          /* Normal cursor instead of hand */
+    text-decoration: none;    /* No underline */
   }
 
-  /* Ensure no hover effect tries to override */
-  .author__avatar img:hover,
-  .feature__item img:hover,
-  img:hover {
+  /* Remove dimming/opacity effect on the author avatar image */
+  .author__avatar img {
+    opacity: 1 !important;            /* Full brightness always */
+    transition: none !important;      /* No fade animation */
+  }
+
+  /* Ensure no hover changes the opacity or adds effects */
+  .author__avatar img:hover {
     opacity: 1 !important;
-    transform: none !important;  /* If there's a slight scale on hover */
+    transform: none !important;
   }
 </style>
