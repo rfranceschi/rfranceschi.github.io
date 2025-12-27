@@ -1,6 +1,7 @@
 ---
 author_profile: false
 layout: splash
+classes: wide
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
