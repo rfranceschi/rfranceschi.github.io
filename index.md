@@ -1,5 +1,5 @@
 ---
-author_profile: false
+author_profile: true
 layout: splash
 classes: wide
 title: "Riccardo Franceschi"
