@@ -32,7 +32,7 @@ excerpt: >
 {% include feature_row id="portrait" type="right" %}
 
 {% capture portrait_fig %}
-<img src="/assets/images/me.jpg" alt="Riccardo Franceschi" class="img-circle" style="max-width: 300px;">
+<img src="/assets/images/me.png" alt="Riccardo Franceschi" class="img-circle" style="max-width: 300px;">
 {% endcapture %}
 
 {% assign feature = site.data.features | where: "id", "portrait" | first %}
