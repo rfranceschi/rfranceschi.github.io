@@ -33,3 +33,21 @@
     cursor: default;       /* Changes cursor to normal (optional) */
   }
 </style>
+
+<style>
+  /* Remove dimming (opacity fade) on hover for all images in author profile and main content */
+  .author__avatar img,
+  .feature__item img,
+  img {  /* Broad selector to catch your main portrait too */
+    opacity: 1 !important;       /* Full brightness always */
+    transition: none !important; /* Removes the fade animation */
+  }
+
+  /* Ensure no hover effect tries to override */
+  .author__avatar img:hover,
+  .feature__item img:hover,
+  img:hover {
+    opacity: 1 !important;
+    transform: none !important;  /* If there's a slight scale on hover */
+  }
+</style>
