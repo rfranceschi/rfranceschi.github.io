@@ -1,11 +1,11 @@
 <style>
-{% if page.header.text_color %}
-  .page__hero--overlay .page__title,
-  .page__hero--overlay .page__meta,
-  .page__hero--overlay .page__lead,
-  .page__hero--overlay .btn {
-    color: {{ page.header.text_color }} !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important; /* Optional: improves readability on bright images */
+  .page__hero--overlay {
+    min-height: 85vh !important;  /* Try 80-100vh; 100vh = full screen */
+    background-position: center center !important;  /* Adjust if needed: top center for more top visible */
   }
-{% endif %}
+  @media (max-width: 768px) {
+    .page__hero--overlay {
+      min-height: 70vh !important;  /* Smaller on mobile */
+    }
+  }
 </style>
