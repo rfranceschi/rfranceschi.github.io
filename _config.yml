@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Riccardo Franceschi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data focused researcher, Postdoctoral researcher at the Observatory of Paris"
+  avatar           : "/assets/images/me.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Scientist | Machine Learning & Bayesian Modeling.<br>PhD Astrophysics → Applying computational modeling and Python expertise to real-world challenges"
   location         : "Paris, France" # "Somewhere"
   email            :
   links:
