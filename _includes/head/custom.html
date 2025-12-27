@@ -1,11 +1,27 @@
 <style>
-  .page__hero--overlay {
-    min-height: 85vh !important;  /* Try 80-100vh; 100vh = full screen */
-    background-position: center center !important;  /* Adjust if needed: top center for more top visible */
+  /* Make title and excerpt smaller */
+  .page__hero--overlay .page__title {
+    font-size: 3.5rem !important;   /* Original is ~5-6rem; reduce further if needed (e.g., 3rem) */
+    margin-bottom: 0.5rem !important;
   }
-  @media (max-width: 768px) {
-    .page__hero--overlay {
-      min-height: 70vh !important;  /* Smaller on mobile */
-    }
+  .page__hero--overlay .page__lead {
+    font-size: 1.8rem !important;   /* Original is ~2.5rem; try 1.6rem for even smaller */
+    max-width: 80% !important;     /* Keeps it from stretching too wide */
+    margin: 0 auto !important;
+  }
+
+  /* Ensure perfect vertical + horizontal centering */
+  .page__hero--overlay .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+
+  /* Optional: Add more vertical breathing room if text feels too high/low */
+  .page__hero--overlay {
+    padding: 4em 0 !important;  /* Increases vertical padding for better middle placement */
   }
 </style>
