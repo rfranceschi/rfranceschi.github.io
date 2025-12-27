@@ -1,5 +1,6 @@
 ---
 layout: home
+classes: wide
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
