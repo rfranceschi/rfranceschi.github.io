@@ -1,10 +1,12 @@
 ---
 author_profile: true
-layout: single
+layout: single  # or 'splash' if you want a full-screen hero on homepage
+title: "Riccardo Franceschi"  # Big headline (your name)
 header:
-  image: /assets/images/JWST_PPD.jpg
-title: About me
-excerpt: "Riccardo Franceschi <br/> Data Scientist | Machine Learning & Bayesian Modeling"
+  overlay_image: /assets/images/JWST_PPD.jpg  # Key: use overlay_image, not image
+  overlay_filter: 0.5  # Darkens image 50% for text readability (adjust 0.3–0.6)
+  caption: "Image credit: NASA/ESA/CSA/JWST"  # Optional small credit at bottom
+excerpt: "Data Scientist | Machine Learning & Bayesian Modeling<br/><br/>Extracting actionable insights from complex, noisy datasets"
 ---
 
 I am a data scientist with a PhD in astrophysics from the Max Planck Institute for Astronomy (Germany), currently a postdoctoral researcher at the Paris Observatory (France). I hold MSc and BSc degrees in Astrophysics and Physics from the University of Pisa (Italy). Specializing in extracting insights from complex, noisy, high-dimensional datasets, I am proficient in Python (pandas, NumPy, scikit-learn, PyTorch) and SQL.
