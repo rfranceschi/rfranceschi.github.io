@@ -1,5 +1,5 @@
 ---
-author: true
+author_profile: true
 permalink: /projects/
 title: Projects
 sidebar:
