@@ -1,21 +1,21 @@
 <style>
-  /* Smaller title and excerpt in hero overlay */
+  /* Smaller title and excerpt */
   .page__hero--overlay .page__title {
-    font-size: 3.0rem !important;
+    font-size: 3.5rem !important;
     margin-bottom: 0.5rem !important;
     line-height: 1.2 !important;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important; /* Better readability on bright images */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important;
   }
 
   .page__hero--overlay .page__lead {
-    font-size: 1.0rem !important;
+    font-size: 1.8rem !important;   /* Larger than 1.0rem */
     max-width: 80% !important;
     margin: 0 auto !important;
     line-height: 1.4 !important;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Perfect centering of text block */
+  /* Centering */
   .page__hero--overlay .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -26,13 +26,20 @@
     padding: 4rem 0 !important;
   }
 
-  /* Taller hero ONLY on homepage */
-  body.home .page__hero--overlay {
+  /* Shorter hero on ALL overlay pages by default */
+  .page__hero--overlay {
+    min-height: 30vh !important;   /* Even smaller for non-home */
+    max-height: 40vh !important;
+  }
+
+  /* Taller hero ONLY on homepage (splash layout adds 'splash' class to article/body) */
+  .splash .page__hero--overlay {
     min-height: 85vh !important;
+    max-height: none !important;
     background-position: center center !important;
   }
 
-  /* Remove link and dimming from author avatar (site-wide) */
+  /* Author avatar fixes (site-wide) */
   .author__avatar a {
     pointer-events: none !important;
     cursor: default !important;
@@ -50,7 +57,7 @@
     transform: none !important;
   }
 
-  /* Mobile adjustments – homepage-specific taller hero */
+  /* Mobile */
   @media (max-width: 768px) {
     .page__hero--overlay .page__title {
       font-size: 2.8rem !important;
@@ -58,33 +65,11 @@
     .page__hero--overlay .page__lead {
       font-size: 1.4rem !important;
     }
-    body.home .page__hero--overlay {
-      min-height: 70vh !important;  /* Only homepage gets taller on mobile */
-    }
-  }
-</style>
-
-<style>
-  /* Force shorter hero on ALL pages that use overlay */
-  .page__hero--overlay {
-    min-height: 20vh !important;  /* Small/compact header on non-home pages */
-    max-height: 30vh !important;  /* Prevents it from growing too tall */
-  }
-
-  /* Override to keep homepage tall (your existing rule, strengthened) */
-  body.home .page__hero--overlay {
-    min-height: 85vh !important;
-    max-height: none !important;
-  }
-
-  /* Mobile: keep non-home pages compact, homepage still generous */
-  @media (max-width: 768px) {
     .page__hero--overlay {
-      min-height: 35vh !important;
+      min-height: 25vh !important;
     }
-    body.home .page__hero--overlay {
+    .splash .page__hero--overlay {
       min-height: 70vh !important;
     }
   }
 </style>
-
