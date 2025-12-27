@@ -5,11 +5,11 @@ classes: wide
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
-  overlay_filter: 0.7
+  overlay_filter: 0.3
   caption: "Image credit: NASA / JPL-Caltech"
   text_color: "#F5F5F5"
 excerpt: >
-  Data Scientist | Machine Learning & Bayesian Modeling<br/><br/>
+  Data Scientist - Machine Learning & Bayesian Modeling<br/><br/>
   Extracting actionable insights from complex, noisy datasets
 ---
 
