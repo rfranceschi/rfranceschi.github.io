@@ -1,6 +1,7 @@
 ---
+author: true
 permalink: /projects/
-title: Research projects
+title: Projects
 sidebar:
   title: " "
   nav: sidebar-projects
