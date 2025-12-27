@@ -11,6 +11,15 @@ excerpt: >
   Extracting actionable insights from complex, noisy datasets
 ---
 
+<style>
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__meta,
+.page__hero--overlay .btn {
+    color: #F5F5F5 !important;
+}
+</style>
+
 <!-- Full bio section (text only, centered or wide) -->
 <div class="feature__wrapper">
   <div class="feature__item--left">
