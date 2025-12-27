@@ -25,8 +25,17 @@
   }
 
   /* Optional: Make hero taller to show more of the image */
-  .page__hero--overlay {
-    min-height: 85vh !important;
+ /* Taller hero overlay ONLY on homepage */
+  body.home .page__hero--overlay {
+    min-height: 85vh !important;  /* Adjust 80-100vh as needed; 85vh shows much more of the image */
+    background-position: center center !important;  /* Centers the JWST image nicely */
+  }
+
+  /* Mobile tweak for homepage hero */
+  @media (max-width: 768px) {
+    body.home .page__hero--overlay {
+      min-height: 70vh !important;
+    }
   }
 
   /* Mobile adjustments */
