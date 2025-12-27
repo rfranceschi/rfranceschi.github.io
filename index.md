@@ -1,7 +1,6 @@
 ---
 author_profile: true
-layout: splash
-<> lasses: wide
+layout: home
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
