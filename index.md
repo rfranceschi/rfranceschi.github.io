@@ -37,4 +37,4 @@ excerpt: >
 
 {% assign feature = site.data.features | where: "id", "portrait" | first %}
 
-{% include feature_row content=portrait_fig image_path="/assets/images/me.jpg" image_circle=true image_alt="Riccardo Franceschi" %}
+{% include feature_row content=portrait_fig image_path="/assets/images/me.png" image_circle=true image_alt="Riccardo Franceschi" %}
