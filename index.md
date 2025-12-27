@@ -1,6 +1,6 @@
 ---
 author_profile: true
-layout: single  # or 'splash' if you want a full-screen hero on homepage
+layout: splash  # or 'splash' if you want a full-screen hero on homepage
 title: "Riccardo Franceschi"  # Big headline (your name)
 header:
   overlay_image: /assets/images/JWST_PPD.jpg  # Key: use overlay_image, not image
