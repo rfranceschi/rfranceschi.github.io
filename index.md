@@ -1,4 +1,5 @@
 ---
+author_profile: true
 layout: home
 classes: wide
 title: "Riccardo Franceschi"
