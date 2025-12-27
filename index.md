@@ -4,8 +4,11 @@ layout: single
 header:
   image: /assets/images/JWST_PPD.jpg
 title: About me
+excerpt: "Riccardo Franceschi <br/> Data Scientist | Machine Learning & Bayesian Modeling"
 ---
 
-I am a physicist and data scientist with a PhD in astrophysics, experienced in turning complex datasets into actionable insights. My background combines advanced modeling, simulation, and statistical analysis with strong programming skills in Python and SQL. I have designed and implemented data pipelines, developed and tested predictive models, and worked with containerization tools like Docker to ensure reproducibility and efficiency.
+I am a data scientist with a PhD in astrophysics from the Max Planck Institute for Astronomy (Germany), currently a postdoctoral researcher at the Paris Observatory (France). I hold MSc and BSc degrees in Astrophysics and Physics from the University of Pisa (Italy). Specializing in extracting insights from complex, noisy, high-dimensional datasets, I am proficient in Python (pandas, NumPy, scikit-learn, PyTorch) and SQL.
 
-In my academic work, I built sophisticated simulation tools to model physical systems and compared them to real-world observational data, drawing meaningful conclusions from noisy and incomplete datasets. I am now focused on applying these analytical, computational, and problem-solving skills to industry challenges, particularly in data-driven decision making, AI solutions, and technology-driven innovation.
+I have built end-to-end data pipelines, developed machine learning models with scikit-learn, applied nested sampling Bayesian methods for parameter estimation and uncertainty quantification, and designed Monte Carlo simulation tools (e.g., for protoplanetary disk evolution and cosmic ray propagation). Experienced in statistical analysis of incomplete data and reproducible workflows with Docker, I have authored peer-reviewed publications and presented at international conferences—honing strong communication skills for translating technical findings to diverse audiences.
+
+Eager to apply this expertise to impactful industry challenges in machine learning, AI, Bayesian modeling, and data-driven innovation—particularly in climate science, environmental modeling, renewable energy, or risk assessment, though open to diverse domains where rigorous data analysis drives real-world outcomes.
