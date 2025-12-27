@@ -13,14 +13,6 @@ excerpt: >
   Extracting actionable insights from complex, noisy datasets
 ---
 
-<!-- Your bio paragraphs -->
-<div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 40px; margin-top: 40px;">
-  <div style="flex: 1; min-width: 300px;">
-    <p>I am a data scientist with a PhD in astrophysics from the Max Planck Institute for Astronomy (Germany), currently a postdoctoral researcher at the Paris Observatory (France). I hold MSc and BSc degrees in Astrophysics and Physics from the University of Pisa (Italy). Specializing in extracting insights from complex, noisy, high-dimensional datasets, I am proficient in Python (pandas, NumPy, scikit-learn, PyTorch) and SQL.</p>
-    <p>I have built end-to-end data pipelines, developed machine learning models with scikit-learn, applied nested sampling Bayesian methods for parameter estimation and uncertainty quantification, and designed Monte Carlo simulation tools (e.g., for protoplanetary disk evolution and cosmic ray propagation). Experienced in statistical analysis of incomplete data and reproducible workflows with Docker, I have authored peer-reviewed publications and presented at international conferences—honing strong communication skills for translating technical findings to diverse audiences.</p>
-    <p>Eager to apply this expertise to impactful industry challenges in machine learning, AI, Bayesian modeling, and data-driven innovation—particularly in climate science, environmental modeling, renewable energy, or risk assessment, though open to diverse domains where rigorous data analysis drives real-world outcomes.</p>
-  </div>
-  <div style="flex: 0 0 300px;">
-    <img src="/assets/images/me.png" alt="Riccardo Franceschi" style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover; border: 5px solid #FFFFFF;">
-  </div>
-</div>
+<p>I am a data scientist with a PhD in astrophysics from the Max Planck Institute for Astronomy (Germany), currently a postdoctoral researcher at the Paris Observatory (France). I hold MSc and BSc degrees in Astrophysics and Physics from the University of Pisa (Italy). Specializing in extracting insights from complex, noisy, high-dimensional datasets, I am proficient in Python (pandas, NumPy, scikit-learn, PyTorch) and SQL.</p>
+<p>I have built end-to-end data pipelines, developed machine learning models with scikit-learn, applied nested sampling Bayesian methods for parameter estimation and uncertainty quantification, and designed Monte Carlo simulation tools (e.g., for protoplanetary disk evolution and cosmic ray propagation). Experienced in statistical analysis of incomplete data and reproducible workflows with Docker, I have authored peer-reviewed publications and presented at international conferences—honing strong communication skills for translating technical findings to diverse audiences.</p>
+<p>Eager to apply this expertise to impactful industry challenges in machine learning, AI, Bayesian modeling, and data-driven innovation—particularly in climate science, environmental modeling, renewable energy, or risk assessment, though open to diverse domains where rigorous data analysis drives real-world outcomes.</p>
