@@ -1,10 +1,11 @@
 <style>
-  .page__hero--overlay .page__title {
-    color: #F5F5F5 !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important; /* improves readability */
+{% if page.header.text_color %}
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__meta,
+  .page__hero--overlay .page__lead,
+  .page__hero--overlay .btn {
+    color: {{ page.header.text_color }} !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important; /* Optional: improves readability on bright images */
   }
-  .page__hero--overlay .page__lead {
-    color: #F5F5F5 !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8) !important;
-  }
+{% endif %}
 </style>
