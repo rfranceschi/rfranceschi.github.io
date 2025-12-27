@@ -1,11 +1,11 @@
 ---
 author_profile: true
-layout: splash  # or 'splash' if you want a full-screen hero on homepage
-title: "Riccardo Franceschi"  # Big headline (your name)
+layout: single 
+title: "Riccardo Franceschi"
 header:
-  overlay_image: /assets/images/JWST_PPD.jpg  # Key: use overlay_image, not image
+  overlay_image: /assets/images/JWST_PPD.jpg
   overlay_filter: 0.5  # Darkens image 50% for text readability (adjust 0.3–0.6)
-  caption: "Image credit: NASA/ESA/CSA/JWST"  # Optional small credit at bottom
+  caption: "Image credit: JWST"
 excerpt: "Data Scientist | Machine Learning & Bayesian Modeling<br/><br/>Extracting actionable insights from complex, noisy datasets"
 ---
 
