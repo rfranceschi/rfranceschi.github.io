@@ -24,24 +24,29 @@
   .page__hero--overlay {
     padding: 4em 0 !important;  /* Increases vertical padding for better middle placement */
   }
-</style>
 
-<style>
-  /* Remove the homepage link from the author avatar (sidebar) */
-  .author__avatar a {
+  /* Remove link behavior from the overlay title (your name) */
+  .page__hero--overlay .page__title a {
     pointer-events: none;     /* Disables clicking */
-    cursor: default;          /* Normal cursor instead of hand */
+    cursor: default;          /* Normal arrow cursor */
     text-decoration: none;    /* No underline */
+    color: inherit;           /* Keeps current text color */
   }
 
-  /* Remove dimming/opacity effect on the author avatar image */
-  .author__avatar img {
+  .page__hero--overlay .page__title a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* Remove fading/dimming on hover for the entire overlay text */
+  .page__hero--overlay .page__title,
+  .page__hero--overlay .page__lead {
     opacity: 1 !important;            /* Full brightness always */
     transition: none !important;      /* No fade animation */
   }
 
-  /* Ensure no hover changes the opacity or adds effects */
-  .author__avatar img:hover {
+  .page__hero--overlay .page__title:hover,
+  .page__hero--overlay .page__lead:hover {
     opacity: 1 !important;
     transform: none !important;
   }
