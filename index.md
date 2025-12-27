@@ -1,11 +1,11 @@
 ---
 author_profile: true
-layout: splash
+layout: single
 classes: wide
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
-  overlay_filter: 0.7
+  overlay_filter: 0.55
   caption: "Image credit: NASA / JPL-Caltech"
   text_color: "#F5F5F5"
 excerpt: >
