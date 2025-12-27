@@ -28,12 +28,12 @@
 
   /* Shorter hero on ALL overlay pages by default */
   .page__hero--overlay {
-    min-height: 30vh !important;   /* Even smaller for non-home */
-    max-height: 40vh !important;
+    min-height: 10vh !important;   /* Even smaller for non-home */
+    max-height: 30vh !important;
   }
 
-  /* Taller hero ONLY on homepage (splash layout adds 'splash' class to article/body) */
-  .splash .page__hero--overlay {
+  /* Taller hero ONLY on homepage */
+  .single .page__hero--overlay {
     min-height: 85vh !important;
     max-height: none !important;
     background-position: center center !important;
