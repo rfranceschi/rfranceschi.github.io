@@ -1,6 +1,8 @@
 ---
 author_profile: true
 layout: single
+header:
+  image: /assets/images/JWST_PPD.jpg
 title: About me
 ---
 
