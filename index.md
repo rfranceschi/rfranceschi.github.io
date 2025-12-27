@@ -1,11 +1,11 @@
 ---
 author_profile: true  # Or false if you don't want the sidebar
-layout: splash
+layout: single
 title: "Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
   overlay_filter: 0.5
-  caption: "Image credit: JWST"
+  caption: "Image credit: NASA / JPL-Caltech"
 excerpt: >
   Data Scientist | Machine Learning & Bayesian Modeling<br/><br/>
   Extracting actionable insights from complex, noisy datasets
