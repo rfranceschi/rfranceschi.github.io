@@ -1,19 +1,21 @@
 <style>
   /* Smaller title and excerpt in hero overlay */
   .page__hero--overlay .page__title {
-    font-size: 3.5rem !important;   /* Adjust as needed: 3rem for smaller, 4rem for larger */
+    font-size: 3.5rem !important;
     margin-bottom: 0.5rem !important;
     line-height: 1.2 !important;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8) !important; /* Better readability on bright images */
   }
 
   .page__hero--overlay .page__lead {
-    font-size: 1.8rem !important;   /* Fixed: was 1.rem → 1.8rem */
+    font-size: 1.8rem !important;
     max-width: 80% !important;
     margin: 0 auto !important;
     line-height: 1.4 !important;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8) !important;
   }
 
-  /* Better centering of the entire text block */
+  /* Perfect centering of text block */
   .page__hero--overlay .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -24,27 +26,13 @@
     padding: 4rem 0 !important;
   }
 
-  /* Optional: Make hero taller to show more of the image */
- /* Taller hero overlay ONLY on homepage */
+  /* Taller hero ONLY on homepage */
   body.home .page__hero--overlay {
-    min-height: 85vh !important;  /* Adjust 80-100vh as needed; 85vh shows much more of the image */
-    background-position: center center !important;  /* Centers the JWST image nicely */
+    min-height: 85vh !important;
+    background-position: center center !important;
   }
 
-  /* Mobile adjustments */
-  @media (max-width: 768px) {
-    .page__hero--overlay .page__title {
-      font-size: 2.8rem !important;
-    }
-    .page__hero--overlay .page__lead {
-      font-size: 1.4rem !important;
-    }
-    .page__hero--overlay {
-      min-height: 70vh !important;
-    }
-  }
-
-  /* Remove link and dimming from author avatar (sidebar) */
+  /* Remove link and dimming from author avatar (site-wide) */
   .author__avatar a {
     pointer-events: none !important;
     cursor: default !important;
@@ -60,5 +48,18 @@
   .author__avatar img:hover {
     opacity: 1 !important;
     transform: none !important;
+  }
+
+  /* Mobile adjustments – homepage-specific taller hero */
+  @media (max-width: 768px) {
+    .page__hero--overlay .page__title {
+      font-size: 2.8rem !important;
+    }
+    .page__hero--overlay .page__lead {
+      font-size: 1.4rem !important;
+    }
+    body.home .page__hero--overlay {
+      min-height: 70vh !important;  /* Only homepage gets taller on mobile */
+    }
   }
 </style>
