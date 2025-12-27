@@ -63,3 +63,28 @@
     }
   }
 </style>
+
+<style>
+  /* Force shorter hero on ALL pages that use overlay */
+  .page__hero--overlay {
+    min-height: 40vh !important;  /* Small/compact header on non-home pages */
+    max-height: 50vh !important;  /* Prevents it from growing too tall */
+  }
+
+  /* Override to keep homepage tall (your existing rule, strengthened) */
+  body.home .page__hero--overlay {
+    min-height: 85vh !important;
+    max-height: none !important;
+  }
+
+  /* Mobile: keep non-home pages compact, homepage still generous */
+  @media (max-width: 768px) {
+    .page__hero--overlay {
+      min-height: 35vh !important;
+    }
+    body.home .page__hero--overlay {
+      min-height: 70vh !important;
+    }
+  }
+</style>
+
