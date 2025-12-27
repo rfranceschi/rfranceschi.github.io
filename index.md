@@ -1,6 +1,6 @@
 ---
 author_profile: true
-layout: home
+layout: spash
 classes: wide
 title: "Riccardo Franceschi"
 header:
