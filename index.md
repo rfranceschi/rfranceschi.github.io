@@ -13,7 +13,6 @@ excerpt: >
   <br/>
   Data Scientist - Machine Learning & Bayesian Modeling
   <br/>
-  <br/>
   Extracting actionable insights from complex, noisy datasets
   <br/>
   <br/>
