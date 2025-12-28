@@ -110,7 +110,7 @@ author:
   location         : "Paris, France" # "Somewhere"
   email            :
   links:
-    - label: "franceschi93.datascience@gmail.com"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:franceschi93.datascience@gmail.com"
       # url: "mailto:your.name@email.com"
