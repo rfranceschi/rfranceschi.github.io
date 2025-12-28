@@ -2,7 +2,7 @@
 author_profile: true
 layout: splash
 classes: wide
-title: "Riccardo Franceschi"
+title: "<br/><br/>Riccardo Franceschi"
 header:
   overlay_image: /assets/images/JWST_PPD.jpg
   overlay_filter: 0.55
@@ -11,6 +11,7 @@ header:
 excerpt: >
   <br/>
   Data Scientist - Machine Learning & Bayesian Modeling
+  <br/>
   Extracting actionable insights from complex, noisy datasets
   <br/>
   <br/>
