@@ -9,8 +9,13 @@ header:
   caption: "Image credit: NASA / JPL-Caltech"
   text_color: "#F5F5F5"
 excerpt: >
-  Data Scientist - Machine Learning & Bayesian Modeling<br/><br/>
+  Data Scientist - Machine Learning & Bayesian Modeling<br/>
   Extracting actionable insights from complex, noisy datasets
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
 ---
 {: .text-center}
 # About me
