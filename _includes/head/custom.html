@@ -28,8 +28,8 @@
 
   /* Shorter hero on ALL overlay pages by default */
   .page__hero--overlay {
-    min-height: 10vh !important;   /* Even smaller for non-home */
-    max-height: 30vh !important;
+    min-height: 20vh !important;   /* Even smaller for non-home */
+    max-height: 80vh !important;
   }
 
   /* Taller hero ONLY on homepage */
@@ -39,22 +39,31 @@
     background-position: center center !important;
   }
 
-  /* Author avatar fixes (site-wide) */
+  /* Remove any hover filter/dimming/grayscale/brightness effect */
+  .author__avatar,
+  .author__avatar img,
+  .author__avatar a {
+    filter: none !important;
+    -webkit-filter: none !important;
+    opacity: 1 !important;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .author__avatar:hover,
+  .author__avatar img:hover,
+  .author__avatar a:hover {
+    filter: none !important;
+    -webkit-filter: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Keep the link disable */
   .author__avatar a {
     pointer-events: none !important;
     cursor: default !important;
     text-decoration: none !important;
-  }
-
-  .author__avatar img {
-    opacity: 1 !important;
-    transition: none !important;
-  }
-
-  .author__avatar a:hover,
-  .author__avatar img:hover {
-    opacity: 1 !important;
-    transform: none !important;
   }
 
   /* Mobile */
