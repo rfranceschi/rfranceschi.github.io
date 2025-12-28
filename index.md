@@ -10,9 +10,7 @@ header:
   text_color: "#F5F5F5"
 excerpt: >
   <br/>
-  <br/>
   Data Scientist - Machine Learning & Bayesian Modeling
-  <br/>
   Extracting actionable insights from complex, noisy datasets
   <br/>
   <br/>
