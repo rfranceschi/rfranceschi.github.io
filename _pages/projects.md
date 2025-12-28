@@ -8,7 +8,7 @@ sidebar:
 
 excerpt: ""
 header:
-  overlay_image: /assets/images/teaser.jpeg
+  overlay_image: /assets/images/teaser_projects.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
 ---
