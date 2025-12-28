@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Research projects"
+  - title: "Projects"
     url: /projects/
   - title: "Publications"
     url: https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-8889-2992&sort=date%20desc%2C%20bibcode%20desc&p_=0
