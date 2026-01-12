@@ -21,7 +21,7 @@ The work combined computational modeling, statistical analysis, and the handling
 
 This project highlights how advanced data techniques and modeling can be applied to study complex, stochastic systems, revealing insights that are not immediately apparent from raw data alone.
 
-<figure>
+<figure class="single">
     <a href="/assets/images/CR_uniform_medium.png">
         <img src="/assets/images/CR_uniform_medium.png">
     </a>
@@ -36,7 +36,7 @@ Determining the mass of protoplanetary disks remains one of the key challenges i
 
 The approach combines synthetic populations of disks with numerical simulations of dust evolution, accounting for radial substructures, pressure bumps, and variations in stellar and disk properties. By comparing the models with well-studied systems such as TW Hya and AS 209, the work highlights how disk structures influence measurable properties and allows for refined mass estimates based on dust dynamics.
 
-<figure>
+<figure class="single">
     <a href="/assets/images/heat_value_M_g_med_page-0001.jpg"><img src="/assets/images/heat_value_M_g_med_page-0001.jpg"></a>
     <figcaption> Comparison between the Powell (2017, 2019) analytical mass estimates from dust line locations (white slashed line) and our estimates based on dust evolution models (red line) across a large population of synthetic disks. The analytical method consistently overestimates disk masses by a roughly constant factor.</figcaption>
 </figure>
