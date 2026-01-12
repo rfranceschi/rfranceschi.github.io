@@ -13,22 +13,13 @@ header:
 
 ---
 
-### A semiempirical approach to low-energy cosmic ray propagation in the diffuse interstellar medium
+### Modeling Cosmic Ray Propagation with Data-Driven Simulations
 
-We investigate the ionization of the diffuse interstellar medium by cosmic rays by modeling their propagation along the
-wandering magnetic fields using a Monte Carlo method. We study how low-energy comic rays propagate in turbulent, translucent molecular clouds,
-and how they regulate the ionization and both lose and gain energy from the medium. As a test case, we used high spatial resolution (0.03 pc)
-CO maps of a well-studied high latitude translucent cloud, MBM 3, to model turbulence. The propagation problem is solved with a modified 
-Monte Carlo procedure that includes trapping, energization, and ionization losses.
+I explored how low-energy cosmic rays travel through turbulent, inhomogeneous molecular clouds. Using high-resolution observational data and Monte Carlo simulations, I analyzed how particles gain and lose energy, get trapped, and contribute to ionization in the interstellar medium.
 
-In the homogeneous medium, trapping and re-energization do not produce a significant effect. In the nonuniform medium,
-particles can be trapped for a long time inside the cloud. This modifies the cosmic ray distribution due to stochastic acceleration at
-the highest energies (∼ 100 MeV). At lower energies, the re-energization is too weak to produce an appreciable effect. The change in
-the energy distribution does not significantly affect the ionization losses, so ionization changes are due to trapping effects.
+The work combined computational modeling, statistical analysis, and the handling of complex datasets to uncover subtle patterns in particle behavior. By comparing simulations with observations, I was able to test and refine models of cosmic ray propagation in realistic, non-uniform environments.
 
-Our Monte Carlo approach to cosmic ray propagation is an alternative method for solving the transport equation. This
-approach can be benchmarked to gas observations of molecular clouds. Using this approach, we demonstrate that stochastic Fermi
-acceleration and particle trapping occurs in inhomogeneous clouds, significantly enhancing their ionization.
+This project highlights how advanced data techniques and modeling can be applied to study complex, stochastic systems, revealing insights that are not immediately apparent from raw data alone.
 
 <figure class="half">
     <a href="/assets/images/CR_uniform_medium.png"><img src="/assets/images/CR_uniform_medium.png"></a>
