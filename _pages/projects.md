@@ -21,7 +21,7 @@ The work combined computational modeling, statistical analysis, and the handling
 
 This project highlights how advanced data techniques and modeling can be applied to study complex, stochastic systems, revealing insights that are not immediately apparent from raw data alone.
 
-<figure class="half">
+<figure>
     <a href="/assets/images/CR_uniform_medium.png">
         <img src="/assets/images/CR_uniform_medium.png">
     </a>
@@ -32,17 +32,13 @@ This project highlights how advanced data techniques and modeling can be applied
 
 ### Mass determination of protoplanetary disks from dust evolution
 
-The mass of protoplanetary disks is arguably one of their most important quantities shaping their evolution toward planetary systems, but it remains a challenge to determine this quantity. Using the high spatial resolution now available on telescopes such as the Atacama Large Millimeter/submillimeter Array (ALMA), recent studies derived a relation between the disk surface density and the location of the "dust lines". This is a new concept in the field, linking the disk size at different continuum wavelengths with the radial distribution of grain populations of different sizes.
+Determining the mass of protoplanetary disks remains one of the key challenges in understanding how planetary systems form. Using high-resolution ALMA observations, I modeled the evolution of dust grains within disks to explore how their radial distribution—the “dust lines”—relates to the underlying disk mass.
 
-We use dust evolution modes to test the dependence of the dust line location on disk gas mass, and we calibrate the analytic relation between the dust line location and the disk mass using a population of synthetic disks. We find that radial pressure bumps can alter the location of the dust line by up to ~10 au, while its location is mainly determined by the disk mass. In particular, we tested the reliability of the method for disks showing radial substructures, as recent high-resolution observations revealed. Therefore, we used these models to calibrate the relation between the dust grain drift timescale and the disk gas mass. We investigated under which condition the dust line location is a good mass estimator and tested how different stellar and disk properties (disk mass, stellar mass, disk age, and dust-to-gas ratio) affect the dust line properties. Finally, we apply this method to observed disks such as TW Hya and AS 209, which have been observed at high angular resolution with ALMA and show pronounced disk structures.
+The approach combines synthetic populations of disks with numerical simulations of dust evolution, accounting for radial substructures, pressure bumps, and variations in stellar and disk properties. By comparing the models with well-studied systems such as TW Hya and AS 209, the work highlights how disk structures influence measurable properties and allows for refined mass estimates based on dust dynamics.
 
-Our models show that the determination of the dust line location is a promising approach to the mass estimate of protoplanetay disks, but the exact relation between the dust line location and disk mass depends on the structure of the particular disk. We calibrated the relation for disks without evidence of radial structures, while for more complex structures we ran a simple dust evolution model.
-
-<figure class="half">
-    <a href="/assets/images/TWHya_page-0001.jpg"><img src="/assets/images/TWHya_page-0001.jpg"></a>
+<figure>
     <a href="/assets/images/heat_value_M_g_med_page-0001.jpg"><img src="/assets/images/heat_value_M_g_med_page-0001.jpg"></a>
-    <figcaption>(left) Comparison of the dust continuum emission at 0.87 mm as predicted by our model (blue solid line) to the observational data (orange
-solid line) from Andrews et al. (2016). The blue dotted line shows the model result without accounting for radial structures, highlighting their importance for this mass estimate. (right) Difference between the Powell (2017, 2019) analytical mass estimate from the dust line location (white slashed line) and our estimate based on dust evolution models (red line) for a large population of syntetic disks. The analytical relation sistematically overestimates the disk mass by a constant factor.</figcaption>
+    <figcaption> Comparison between the Powell (2017, 2019) analytical mass estimates from dust line locations (white slashed line) and our estimates based on dust evolution models (red line) across a large population of synthetic disks. The analytical method consistently overestimates disk masses by a roughly constant factor.</figcaption>
 </figure>
 
 ### Constraining the turbulence and the dust disk in IM Lup: onset of planetesimal formation
