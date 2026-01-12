@@ -22,9 +22,12 @@ The work combined computational modeling, statistical analysis, and the handling
 This project highlights how advanced data techniques and modeling can be applied to study complex, stochastic systems, revealing insights that are not immediately apparent from raw data alone.
 
 <figure class="half">
-    <a href="/assets/images/CR_uniform_medium.png"><img src="/assets/images/CR_uniform_medium.png"></a>
-    <a href="/assets/images/CR_trapping.png"><img src="/assets/images/CR_trapping.png"></a>
-    <figcaption>(left) Example of simulated random-walk particle trajectories in the medium (right) Energy histogram of protons injected at 100 MeV propagating in an inhomogeneous medium. For comparison, the gray area shows the particle energy spread in a homogeneousmedium medium. Some particles are accelerated to energies higher than the injection one. </figcaption>
+    <a href="/assets/images/CR_uniform_medium.png">
+        <img src="/assets/images/CR_uniform_medium.png">
+    </a>
+    <figcaption>
+        Example of simulated random-walk particle trajectories in the medium.
+    </figcaption>
 </figure>
 
 ### Mass determination of protoplanetary disks from dust evolution
